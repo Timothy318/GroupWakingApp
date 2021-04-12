@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ca.cmpt276.walkinggroup.activity.MapsActivity" />
+
+    <Button
+        android:id="@+id/add_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="@string/add_group" />
+
+    <Button
+        android:id="@+id/emergencybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:text="@string/emergency" />
+
+    <TextView
+        android:id="@+id/instructions_map"
+        android:layout_width="wrap_content"
+        android:layout_gravity="top|left"
+        android:background="@color/place_autocomplete_search_hint"
+        android:layout_marginTop="55dp"
+        android:layout_height="wrap_content"
+        android:text="@string/select_marker_to_join_group_route_you_are_part_of" />
+</FrameLayout>

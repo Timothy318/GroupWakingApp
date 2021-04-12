@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/nav_monitor"
+            android:icon="@drawable/ic_eye"
+            android:title="@string/monitor" />
+        <item
+            android:id="@+id/nav_groups"
+            android:icon="@drawable/ic_group"
+            android:title="@string/groups" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/account" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_message"
+            android:title="@string/message" />
+        <item
+            android:id="@+id/nav_permissions"
+            android:icon="@drawable/ic_check_box"
+            android:title="@string/permission_requests" />
+
+        <item
+            android:id="@+id/nav_leader_board"
+            android:icon="@drawable/ic_check_box"
+            android:title="Leader Board" />
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/ic_store_black"
+            android:title="@string/store" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/logout" />
+    </group>
+</menu>

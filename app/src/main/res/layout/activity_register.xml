@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+        Reference for XML code: http://android.mskurt.net/2015/12/14/making-register-form/
+        Note: The XML code has been modified and improved by the team.
+    -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="@string/sign_up"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/firstNameTextID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/firstName"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <EditText
+                android:id="@+id/firstNameInputID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/required" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/lastNameTextID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lastName"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <EditText
+                android:id="@+id/lastNameInputID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/required" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/emailTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <EditText
+            android:id="@+id/emailRegisterInputID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/required"
+            android:inputType="textEmailAddress" />
+
+    </LinearLayout>
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+            <TextView
+                android:id="@+id/passTextID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textColor="@android:color/holo_blue_dark" />
+
+        <EditText
+            android:id="@+id/passInputRegisterTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/required"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/registerButtonID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/register"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/backToLoginBtnID"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="Back To Login"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

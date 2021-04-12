@@ -1,0 +1,4 @@
+Scrum Master: Kourosh
+Product Owner: Jun-Ho
+Repo Manager: Quince
+Scrum Member: Timothy

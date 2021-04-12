@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/request_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:text="@string/accept_request"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/request_accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:text="@string/accept"
+            android:textColor="#33bbff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/request_deny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="20dp"
+            android:text="@string/deny"
+            android:textColor="#33bbff"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

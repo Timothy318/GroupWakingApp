@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Walking School Bus</string>
+    <string name="monitor">Monitor</string>
+    <string name="map">Map</string>
+    <string name="groups">Groups</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    <string name="menu_title">Menu</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="prompt_email">Email</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="female"> Female </string>
+    <string name="male"> Male </string>
+    <string name="email"> Email </string>
+    <string name="other"> Other </string>
+    <string name="birthday"> Birthday </string>
+    <string name="gender"> Gender </string>
+    <string name="firstName"> First Name </string>
+    <string name="register_form_text" />
+    <string name="lastName"> Last Name </string>
+    <string name="cellphone"> Cell Phone </string>
+    <string name="password"> Password </string>
+    <string name="confirm_password"> Confirm Password </string>
+    <string name="register"> Register </string>
+    <string name="sign_up">Sign Up</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="birthdaytext">Birthday</string>
+    <string name="cellphone_number">cellphone number</string>
+    <string name="optional">optional</string>
+    <string name="required">Required</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="pick_place">Pick a Place</string>
+    <string name="apikey">0E982A72-0AF4-440C-8D27-B1F3FA32E145</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_your_parent">Add Your Guardian</string>
+    <string name="watched_by">Watched By</string>
+    <string name="watching">Watching</string>
+    <string name="add_parent">Add Guardian</string>
+    <string name="add_child">Add Student</string>
+    <string name="enter_the_name">enter the name</string>
+    <string name="enter_the_e_mail">enter the e-mail</string>
+
+    <string name="location_enable_message">Please enable your location</string>
+    <string name="enable">Enable</string>
+    <string name="prefName">user_logged_in_storage</string>
+    <string name="delete_user_from_list">Delete user from your list?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="delete">DELETE</string>
+    <string name="add_group">Add Group</string>
+    <string name="group_description">Enter your group\'s information:</string>
+    <string name="enter_group_description">enter group\'s description</string>
+    <string name="enter_address_city_or_zip_code">Enter Address, City or Zip Code</string>
+    <string name="group_start_location">start location</string>
+    <string name="group_end_location">end location</string>
+    <string name="delete_group_from_list">Delete group from list?</string>
+    <string name="locate_hold_two_locations">Select/hold two locations</string>
+    <string name="delete_user_from_group">Delete user from group</string>
+    <string name="add_member">Add Member</string>
+    <string name="account">Account</string>
+    <string name="birthmonth">Birthday</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="address">Address</string>
+    <string name="homephone">Home Phone</string>
+    <string name="grade">Grade</string>
+    <string name="teacher">Teacher</string>
+    <string name="emergencyinfo">Emergency Contact Info</string>
+    <string name="update">Save Changes</string>
+    <string name="members">Members</string>
+    <string name="compose_to">compose_to</string>
+    <string name="compose_message">compose_message</string>
+    <string name="compose_cancel">compose_cancel</string>
+    <string name="compose_send">compose_send</string>
+    <string name="compose_not_default">compose_not_default</string>
+    <string name="compose_set_default">compose_set_default</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="message_group">Message Group</string>
+    <string name="emergency">Emergency</string>
+    <string name="select_marker_to_join_group_route_you_are_part_of">*Select marker to join route of group you are part of</string>
+    <string name="Inbox">Inbox</string>
+    <string name="Messages">Messages</string>
+    <string name="overview">Overview</string>
+    <string name="pending">Pending Requests</string>
+    <string name="message">Message</string>
+    <string name="permission_requests">Permissions</string>
+    <string name="accept_request">Accept Request?</string>
+    <string name="accept">ACCEPT</string>
+    <string name="deny">DENY</string>
+    <string name="store">Store</string>
+    <string name="leader_board_requests">leaderBoardRequest</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/userInformationLayout"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/userInformationLayout_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/ok"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/userInformationLayout_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/enter_the_name"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/userInformationLayout_userEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/userInformationLayout_userPhone"
+            android:layout_marginTop="12dp"
+            android:text="@string/email"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/userInformationLayout_userPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/userInformationLayout_userName"
+            android:layout_marginTop="11dp"
+            android:text="@string/common_open_on_phone"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/userInformationLayout_emergencyContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/userInformationLayout_userEmail"
+            android:layout_marginTop="14dp"
+            android:text="@string/emergencyinfo"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

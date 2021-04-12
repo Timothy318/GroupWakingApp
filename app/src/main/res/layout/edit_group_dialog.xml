@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/editgroup_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/members"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <ExpandableListView
+            android:id="@+id/editgroup_expandablelist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/editgroup_heading"
+            android:layout_marginBottom="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp" />
+
+        <Button
+            android:id="@+id/editGroup_addMemberBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/add_member" />
+
+        <Button
+            android:id="@+id/editGroup_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/cancel" />
+
+        <TextView
+            android:id="@+id/sendGroupMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editgroup_expandablelist"
+            android:layout_alignParentEnd="true"
+            android:textIsSelectable="true"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:text="@string/message_group" />
+
+    </RelativeLayout>
+</RelativeLayout>
